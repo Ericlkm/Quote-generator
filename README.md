@@ -1,3 +1,6 @@
+
+[live link try now!](https://ericlkm.github.io/Quote-generator/)
+
 # Quote Generator
 
 The Quote Generator is a simple web application that displays random quotes with the click of a button. It fetches quotes from an API and displays them on the page along with the author's name.
