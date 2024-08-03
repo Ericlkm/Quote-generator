@@ -1,10 +1,15 @@
 /* style.css */
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Rock+Salt&display=swap");
 *::selection {
   background-color: cyan;
   color: hwb(0 100% 0%);
 }
+
 body {
   min-height: 100vh;
   text-align: center;
@@ -33,6 +38,10 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+.title {
+  text-align: left;
+  padding: 1rem;
 }
 
 .container {
